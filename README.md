@@ -12,3 +12,9 @@ git init
 git add .gitignore ; git commit -m "ignore vendor tmp log sqlite3 "
 
 git push --set-upstream origin main
+
+# setup slim as template engine
+
+bundle add html2slim slim-rails rubocop
+bundle --binstubs
+
