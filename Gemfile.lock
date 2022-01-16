@@ -120,6 +120,8 @@ GEM
     parallel (1.21.0)
     parser (3.1.0.0)
       ast (~> 2.4.1)
+    psych (4.0.3)
+      stringio
     puma (5.5.2)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -154,6 +156,8 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
+    rdoc (6.4.0)
+      psych (>= 4.0.0)
     regexp_parser (2.2.0)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -185,6 +189,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stringio (3.0.1)
     strscan (3.0.1)
     tailwindcss-rails (2.0.4-x86_64-linux)
       railties (>= 6.0.0)
@@ -214,6 +219,7 @@ DEPENDENCIES
   html2slim (~> 0.2.0)
   puma (~> 5.0)
   rails (~> 7.0.1)
+  rdoc
   rubocop (~> 1.24)
   slim-rails (~> 3.3)
   sprockets-rails
