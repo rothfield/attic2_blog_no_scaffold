@@ -49,3 +49,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "html2slim", "~> 0.2.0"
+gem "slim-rails", "~> 3.3"
+gem "rubocop", "~> 1.24"
