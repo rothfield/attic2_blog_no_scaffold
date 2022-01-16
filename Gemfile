@@ -53,5 +53,5 @@ end
 gem "html2slim", "~> 0.2.0"
 gem "slim-rails", "~> 3.3"
 gem "rubocop", "~> 1.24"
-
+gem 'rdoc'
 gem "tailwindcss-rails", "~> 2.0"
